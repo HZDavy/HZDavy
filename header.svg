@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="80" viewBox="0 0 800 80">
+  <style>
+    /* ========== 基础设置 ========== */
+    .base-text { font-size: 32px; fill: #24292f; }
+    .base-font { font-family: 'Apple Garamond', 'Garamond', 'Times New Roman', serif; font-style: normal; font-weight: normal; }
+    @media (prefers-color-scheme: dark) { .base-text { fill: #c9d1d9; } }
+
+    /* ========== 20 种国际品牌与排版风格字体栈 ========== */
+    .brand-1 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; }
+    .brand-2 { font-family: 'Didot', 'Bodoni MT', 'Times New Roman', serif; font-style: italic; }
+    .brand-3 { font-family: 'Futura', 'Century Gothic', sans-serif; font-weight: bold; letter-spacing: 3px; font-size: 26px; }
+    .brand-4 { font-family: 'Baskerville', 'Georgia', serif; font-weight: normal; }
+    .brand-5 { font-family: 'Arial Black', Impact, sans-serif; font-style: italic; font-weight: 900; }
+    .brand-6 { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+    .brand-7 { font-family: 'Brush Script MT', 'Zapfino', 'Bradley Hand', cursive; font-size: 38px; }
+    .brand-8 { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; letter-spacing: 1px; }
+    .brand-9 { font-family: '-apple-system', 'Segoe UI', Roboto, sans-serif; font-weight: 700; letter-spacing: -1px; }
+    .brand-10 { font-family: 'Rockwell', 'Courier New', serif; font-weight: bold; }
+    .brand-11 { font-family: 'Optima', 'Candara', sans-serif; font-weight: normal; }
+    .brand-12 { font-family: 'Century Gothic', 'Tw Cen MT', sans-serif; font-weight: normal; letter-spacing: 2px; }
+    .brand-13 { font-family: 'Copperplate', 'Copperplate Gothic Light', serif; letter-spacing: 1px; font-size: 28px; }
+    .brand-14 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif; font-weight: bold; }
+    .brand-15 { font-family: 'American Typewriter', 'Courier', serif; }
+    .brand-16 { font-family: 'Consolas', 'Monaco', monospace; }
+    .brand-17 { font-family: 'Arial Rounded MT Bold', 'Varela Round', sans-serif; }
+    .brand-18 { font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 100; letter-spacing: 3px; }
+    .brand-19 { font-family: 'Garamond', 'Hoefler Text', serif; font-style: italic; font-weight: bold; }
+    .brand-20 { font-family: 'Marker Felt', 'Bradley Hand', cursive; font-size: 34px; }
+  </style>
+
+  <defs>
+    <!-- 图案总宽度缩紧调整为 6000 (容纳 20 个词，每个间距 300px) -->
+    <pattern id="marquee-pattern" x="0" y="0" width="6000" height="80" patternUnits="userSpaceOnUse">
+      <!-- 动画总时长设为 90 秒，保证在数量翻倍且紧凑的情况下阅读速度依然舒适平稳 -->
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="6000 0" dur="90s" repeatCount="indefinite" />
+
+      <text x="0" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-1">different.</tspan></text>
+      <text x="300" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-2">different.</tspan></text>
+      <text x="600" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-3">DIFFERENT.</tspan></text>
+      <text x="900" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-4">different.</tspan></text>
+      <text x="1200" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-5">different.</tspan></text>
+      <text x="1500" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-6">different.</tspan></text>
+      <text x="1800" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-7">different.</tspan></text>
+      <text x="2100" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-8">different.</tspan></text>
+      <text x="2400" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-9">different.</tspan></text>
+      <text x="2700" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-10">different.</tspan></text>
+      <text x="3000" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-11">different.</tspan></text>
+      <text x="3300" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-12">different.</tspan></text>
+      <text x="3600" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-13">DIFFERENT.</tspan></text>
+      <text x="3900" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-14">different.</tspan></text>
+      <text x="4200" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-15">different.</tspan></text>
+      <text x="4500" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-16">different.</tspan></text>
+      <text x="4800" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-17">different.</tspan></text>
+      <text x="5100" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-18">different.</tspan></text>
+      <text x="5400" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-19">different.</tspan></text>
+      <text x="5700" y="50" class="base-text"><tspan class="base-font">Think </tspan><tspan class="brand-20">different.</tspan></text>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#marquee-pattern)" />
+</svg>
