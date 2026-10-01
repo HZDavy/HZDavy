@@ -2,26 +2,18 @@
   <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&style=italic&weight=500&size=36&pause=2000&color=FFFFFF&center=true&vCenter=true&width=600&height=80&lines=Think+different." alt="Think different" />
 </div>
 
-<br />
-
----
-
-<br />
-
-<h4 align="center"><em>Telemetry Data</em></h4>
+<h4 align="center">
+  ─────────── <em>Telemetry Data</em> ───────────
+</h4>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=HZDavy&show_icons=true&theme=radical&hide_border=true&bg_color=000000&title_color=00FF00&icon_color=00FF00&text_color=a0a0a0" height="192px" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HZDavy&layout=compact&theme=radical&hide_border=true&bg_color=000000&title_color=00FF00&text_color=a0a0a0" height="192px" alt="Top Languages" />
 </div>
 
-<br />
-
----
-
-<br />
-
-<h4 align="center"><em>Activity Matrix</em></h4>
+<h4 align="center">
+  ─────────── <em>Activity Matrix</em> ───────────
+</h4>
 
 <div align="center">
   <picture>
