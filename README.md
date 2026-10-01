@@ -4,6 +4,10 @@
 
 <br />
 
+---
+
+<br />
+
 <h4 align="center"><em>Telemetry Data</em></h4>
 
 <div align="center">
@@ -12,6 +16,9 @@
 </div>
 
 <br />
+
+---
+
 <br />
 
 <h4 align="center"><em>Activity Matrix</em></h4>
