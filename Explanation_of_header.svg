@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1300" viewBox="0 0 1100 1300">
+  <style>
+    /* ========== 全局与背景 ========== */
+    .bg { fill: #ffffff; }
+    .text-main { font-size: 30px; fill: #24292f; }
+    .text-brand { font-size: 16px; font-family: -apple-system, sans-serif; font-weight: 600; fill: #57606a; }
+    .text-font { font-size: 14px; font-family: 'Fira Code', 'Courier New', monospace; fill: #0969da; }
+    .header-text { font-size: 14px; font-family: -apple-system, sans-serif; font-weight: bold; fill: #8c959f; text-transform: uppercase; letter-spacing: 1px; }
+    .line { stroke: #d0d7de; stroke-width: 1; }
+    
+    .base-font { font-family: 'Apple Garamond', 'Garamond', 'Times New Roman', serif; font-style: normal; font-weight: normal; }
+
+    /* ========== 深色模式适配 ========== */
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .text-main { fill: #c9d1d9; }
+      .text-brand { fill: #8b949e; }
+      .text-font { fill: #58a6ff; }
+      .header-text { fill: #6e7681; }
+      .line { stroke: #30363d; }
+    }
+
+    /* ========== 20 种字体栈 ========== */
+    .brand-1 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; }
+    .brand-2 { font-family: 'Didot', 'Bodoni MT', 'Times New Roman', serif; font-style: italic; }
+    .brand-3 { font-family: 'Futura', 'Century Gothic', sans-serif; font-weight: bold; letter-spacing: 3px; font-size: 24px; }
+    .brand-4 { font-family: 'Baskerville', 'Georgia', serif; font-weight: normal; }
+    .brand-5 { font-family: 'Arial Black', Impact, sans-serif; font-style: italic; font-weight: 900; }
+    .brand-6 { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+    .brand-7 { font-family: 'Brush Script MT', 'Zapfino', 'Bradley Hand', cursive; font-size: 36px; }
+    .brand-8 { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; letter-spacing: 1px; }
+    .brand-9 { font-family: '-apple-system', 'Segoe UI', Roboto, sans-serif; font-weight: 700; letter-spacing: -1px; }
+    .brand-10 { font-family: 'Rockwell', 'Courier New', serif; font-weight: bold; }
+    .brand-11 { font-family: 'Optima', 'Candara', sans-serif; font-weight: normal; }
+    .brand-12 { font-family: 'Century Gothic', 'Tw Cen MT', sans-serif; font-weight: normal; letter-spacing: 2px; }
+    .brand-13 { font-family: 'Copperplate', 'Copperplate Gothic Light', serif; letter-spacing: 1px; font-size: 26px; }
+    .brand-14 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif; font-weight: bold; }
+    .brand-15 { font-family: 'American Typewriter', 'Courier', serif; }
+    .brand-16 { font-family: 'Consolas', 'Monaco', monospace; }
+    .brand-17 { font-family: 'Arial Rounded MT Bold', 'Varela Round', sans-serif; }
+    .brand-18 { font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 100; letter-spacing: 3px; }
+    .brand-19 { font-family: 'Garamond', 'Hoefler Text', serif; font-style: italic; font-weight: bold; }
+    .brand-20 { font-family: 'Marker Felt', 'Bradley Hand', cursive; font-size: 32px; }
+  </style>
+
+  <rect width="100%" height="100%" class="bg" />
+
+  <!-- 表头 -->
+  <text x="40" y="40" class="header-text">Typography Rendering</text>
+  <text x="420" y="40" class="header-text">Brand / Style Reference</text>
+  <text x="750" y="40" class="header-text">Font Stack (CSS)</text>
+  <line x1="40" y1="55" x2="1060" y2="55" class="line" />
+
+  <!-- 1. 工业极简 -->
+  <text x="40" y="95" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-1">different.</tspan></text>
+  <text x="420" y="90" class="text-brand">Braun / MUJI (工业极简现代主义)</text>
+  <text x="750" y="90" class="text-font">'Helvetica Neue', Helvetica, Arial</text>
+  <line x1="40" y1="115" x2="1060" y2="115" class="line" />
+
+  <!-- 2. 时尚出版 -->
+  <text x="40" y="155" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-2">different.</tspan></text>
+  <text x="420" y="150" class="text-brand">Vogue / Dior (顶级时尚出版物与高定)</text>
+  <text x="750" y="150" class="text-font">'Didot', 'Bodoni MT', serif</text>
+  <line x1="40" y1="175" x2="1060" y2="175" class="line" />
+
+  <!-- 3. 奢侈皮具 -->
+  <text x="40" y="215" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-3">DIFFERENT.</tspan></text>
+  <text x="420" y="210" class="text-brand">Chanel / Louis Vuitton (经典奢侈皮具)</text>
+  <text x="750" y="210" class="text-font">'Futura', 'Century Gothic', sans-serif</text>
+  <line x1="40" y1="235" x2="1060" y2="235" class="line" />
+
+  <!-- 4. 老钱钟表 -->
+  <text x="40" y="275" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-4">different.</tspan></text>
+  <text x="420" y="270" class="text-brand">Rolex / Tiffany &amp; Co. (老钱钟表与珠宝)</text>
+  <text x="750" y="270" class="text-font">'Baskerville', 'Georgia', serif</text>
+  <line x1="40" y1="295" x2="1060" y2="295" class="line" />
+
+  <!-- 5. 街头潮流 -->
+  <text x="40" y="335" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-5">different.</tspan></text>
+  <text x="420" y="330" class="text-brand">Supreme / Nike (街头潮流与运动文化)</text>
+  <text x="750" y="330" class="text-font">'Arial Black', Impact, sans-serif</text>
+  <line x1="40" y1="355" x2="1060" y2="355" class="line" />
+
+  <!-- 6. 早期计算机 -->
+  <text x="40" y="395" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-6">different.</tspan></text>
+  <text x="420" y="390" class="text-brand">IBM (早期计算机巨头打字机风格)</text>
+  <text x="750" y="390" class="text-font">'Courier New', Courier, monospace</text>
+  <line x1="40" y1="415" x2="1060" y2="415" class="line" />
+
+  <!-- 7. 高定手写 -->
+  <text x="40" y="455" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-7">different.</tspan></text>
+  <text x="420" y="450" class="text-brand">Cartier / Paul Smith (奢华高定手写签名)</text>
+  <text x="750" y="450" class="text-font">'Brush Script MT', 'Zapfino', cursive</text>
+  <line x1="40" y1="475" x2="1060" y2="475" class="line" />
+
+  <!-- 8. 意式奢侈 -->
+  <text x="40" y="515" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-8">different.</tspan></text>
+  <text x="420" y="510" class="text-brand">Prada / Gucci (传统意式古典罗马字)</text>
+  <text x="750" y="510" class="text-font">'Palatino Linotype', Palatino, serif</text>
+  <line x1="40" y1="535" x2="1060" y2="535" class="line" />
+
+  <!-- 9. 现代科技 -->
+  <text x="40" y="575" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-9">different.</tspan></text>
+  <text x="420" y="570" class="text-brand">Netflix / Meta (现代互联网科技产品化)</text>
+  <text x="750" y="570" class="text-font">'-apple-system', 'Segoe UI', Roboto</text>
+  <line x1="40" y1="595" x2="1060" y2="595" class="line" />
+
+  <!-- 10. 重工马具 -->
+  <text x="40" y="635" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-10">different.</tspan></text>
+  <text x="420" y="630" class="text-brand">Hermès / Volvo (硬朗重工业与马具传统)</text>
+  <text x="750" y="630" class="text-font">'Rockwell', 'Courier New', serif</text>
+  <line x1="40" y1="655" x2="1060" y2="655" class="line" />
+
+  <!-- 11. 跑车美妆 -->
+  <text x="40" y="695" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-11">different.</tspan></text>
+  <text x="420" y="690" class="text-brand">Aston Martin / Estée Lauder (流线型人文气质)</text>
+  <text x="750" y="690" class="text-font">'Optima', 'Candara', sans-serif</text>
+  <line x1="40" y1="715" x2="1060" y2="715" class="line" />
+
+  <!-- 12. 极简成衣 -->
+  <text x="40" y="755" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-12">different.</tspan></text>
+  <text x="420" y="750" class="text-brand">Calvin Klein (极简成衣，小写大间距排版)</text>
+  <text x="750" y="750" class="text-font">'Century Gothic', 'Tw Cen MT', sans-serif</text>
+  <line x1="40" y1="775" x2="1060" y2="775" class="line" />
+
+  <!-- 13. 顶级律所 -->
+  <text x="40" y="815" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-13">DIFFERENT.</tspan></text>
+  <text x="420" y="810" class="text-brand">米其林餐厅 / 华尔街律所 (传统雕刻铭文)</text>
+  <text x="750" y="810" class="text-font">'Copperplate', 'Copperplate Gothic Light'</text>
+  <line x1="40" y1="835" x2="1060" y2="835" class="line" />
+
+  <!-- 14. 先锋媒体 -->
+  <text x="40" y="875" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-14">different.</tspan></text>
+  <text x="420" y="870" class="text-brand">GQ / Vice (现代先锋杂志紧凑窄体)</text>
+  <text x="750" y="870" class="text-font">'Franklin Gothic Medium', 'Arial Narrow'</text>
+  <line x1="40" y1="895" x2="1060" y2="895" class="line" />
+
+  <!-- 15. 城市复古 -->
+  <text x="40" y="935" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-15">different.</tspan></text>
+  <text x="420" y="930" class="text-brand">I Love NY (美式城市文化与复古打字机)</text>
+  <text x="750" y="930" class="text-font">'American Typewriter', 'Courier', serif</text>
+  <line x1="40" y1="955" x2="1060" y2="955" class="line" />
+
+  <!-- 16. 极客开发 -->
+  <text x="40" y="995" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-16">different.</tspan></text>
+  <text x="420" y="990" class="text-brand">GitHub / Vercel (极客与代码开发环境)</text>
+  <text x="750" y="990" class="text-font">'Consolas', 'Monaco', monospace</text>
+  <line x1="40" y1="1015" x2="1060" y2="1015" class="line" />
+
+  <!-- 17. 亲和力初创 -->
+  <text x="40" y="1055" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-17">different.</tspan></text>
+  <text x="420" y="1050" class="text-brand">Airbnb早期 (强调亲和力的互联网初创圆体)</text>
+  <text x="750" y="1050" class="text-font">'Arial Rounded MT Bold', 'Varela Round'</text>
+  <line x1="40" y1="1075" x2="1060" y2="1075" class="line" />
+
+  <!-- 18. 极简科技 -->
+  <text x="40" y="1115" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-18">different.</tspan></text>
+  <text x="420" y="1110" class="text-brand">Apple早期 iOS7 (极简科技，极细笔画拉宽)</text>
+  <text x="750" y="1110" class="text-font">'Helvetica Neue' (font-weight: 100)</text>
+  <line x1="40" y1="1135" x2="1060" y2="1135" class="line" />
+
+  <!-- 19. 古典文学 -->
+  <text x="40" y="1175" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-19">different.</tspan></text>
+  <text x="420" y="1170" class="text-brand">企鹅经典丛书 (古典文学传统的正统手书感)</text>
+  <text x="750" y="1170" class="text-font">'Garamond', 'Hoefler Text', serif</text>
+  <line x1="40" y1="1195" x2="1060" y2="1195" class="line" />
+
+  <!-- 20. 街头涂鸦 -->
+  <text x="40" y="1235" class="text-main"><tspan class="base-font">Think </tspan><tspan class="brand-20">different.</tspan></text>
+  <text x="420" y="1230" class="text-brand">独立艺术展 / 涂鸦 (随性的马克笔手书签名)</text>
+  <text x="750" y="1230" class="text-font">'Marker Felt', 'Bradley Hand', cursive</text>
+  <line x1="40" y1="1255" x2="1060" y2="1255" class="line" />
+
+</svg>
