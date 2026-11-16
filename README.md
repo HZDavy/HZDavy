@@ -1,5 +1,4 @@
-<img src="header.svg" alt="Think different marquee — retro oscilloscope" width="100%" />
-<img src="vu-meter.svg" alt="Analog dual channel VU meter" width="100%" />
+<p><img src="header.svg" alt="Think different marquee — retro oscilloscope" width="100%" /><img src="vu-meter.svg" alt="Wood cabinet dual analog VU meter" width="100%" /><img src="tape.svg" alt="Leather and metal tape transport" width="100%" /></p>
 <h4><em>Telemetry Data</em></h4>
 <hr>
 <a href="#"><img src="https://github-readme-stats-eosin.vercel.app/api?username=HZDavy&show_icons=true&theme=radical&hide_border=true&bg_color=000000&title_color=00FF00&icon_color=00FF00&text_color=a0a0a0" height="192px" alt="GitHub Stats" /></a>&nbsp;<a href="#"><img src="https://github-readme-stats-eosin.vercel.app/api/top-langs/?username=HZDavy&layout=compact&theme=radical&hide_border=true&bg_color=000000&title_color=00FF00&text_color=a0a0a0" height="192px" alt="Top Languages" /></a>

@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12 6 876 158" role="img" aria-label="Leather and metal tape transport, tape-punk">
+  <title>TP-01 · tape transport</title>
+  <style>
+    .label { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-weight: 700; font-size: 6.2px; letter-spacing: 2px; fill: #8b8378; }
+    .brand { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-weight: 500; font-size: 12px; letter-spacing: 3.2px; fill: #cfd3d8; }
+    .emboss { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, 'Helvetica Neue', sans-serif; font-weight: 500; font-size: 15px; letter-spacing: 2.4px; fill: #d8c3a6; }
+  </style>
+  <defs>
+    <clipPath id="bodyClip"><rect x="18" y="12" width="864" height="146" rx="20"/></clipPath>
+    <clipPath id="winClip"><rect x="326" y="24" width="320" height="116" rx="10"/></clipPath>
+    <linearGradient id="leather" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#4b2a22"/><stop offset="0.4" stop-color="#3d211a"/>
+      <stop offset="0.75" stop-color="#452520"/><stop offset="1" stop-color="#33201a"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0" stop-color="#8f979f"/><stop offset="0.12" stop-color="#69717a"/>
+      <stop offset="0.45" stop-color="#4d545c"/><stop offset="0.72" stop-color="#5d656e"/>
+      <stop offset="1" stop-color="#3a4047"/>
+    </linearGradient>
+    <linearGradient id="brushed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="rivet" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#c2c9d1"/><stop offset="0.5" stop-color="#6b737c"/>
+      <stop offset="1" stop-color="#2c3136"/>
+    </linearGradient>
+    <radialGradient id="brass" cx="0.34" cy="0.28" r="0.85">
+      <stop offset="0" stop-color="#d8b477"/><stop offset="0.45" stop-color="#a98449"/>
+      <stop offset="0.8" stop-color="#6f5430"/><stop offset="1" stop-color="#4a371f"/>
+    </radialGradient>
+    <radialGradient id="steelGear" cx="0.34" cy="0.28" r="0.9">
+      <stop offset="0" stop-color="#aab2ba"/><stop offset="0.5" stop-color="#6d757e"/>
+      <stop offset="1" stop-color="#383d43"/>
+    </radialGradient>
+    <radialGradient id="cavity" cx="0.5" cy="0.42" r="0.7">
+      <stop offset="0" stop-color="#2b2320"/><stop offset="0.6" stop-color="#1b1614"/>
+      <stop offset="1" stop-color="#0d0a09"/>
+    </radialGradient>
+    <linearGradient id="glassSheen" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="leatherGrain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.8" r="0.55" fill="#1c0f0b" opacity="0.5"/>
+      <circle cx="5.1" cy="4.6" r="0.45" fill="#1c0f0b" opacity="0.4"/>
+      <circle cx="3.4" cy="6" r="0.35" fill="#a06c55" opacity="0.16"/>
+    </pattern>
+    <pattern id="brushLines" width="3" height="2" patternUnits="userSpaceOnUse">
+      <rect width="3" height="0.6" fill="#ffffff" opacity="0.05"/>
+      <rect y="1.2" width="3" height="0.4" fill="#000000" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect x="20" y="20" width="864" height="146" rx="20" fill="#000000" opacity="0.22"/>
+  <rect x="19" y="16" width="864" height="146" rx="20" fill="#000000" opacity="0.18"/>
+  <rect x="18" y="12" width="864" height="146" rx="20" fill="url(#steel)"/>
+  <rect x="18" y="12" width="864" height="146" rx="20" fill="url(#brushed)"/>
+  <rect x="18" y="12" width="864" height="146" fill="url(#brushLines)"/>
+  <g clip-path="url(#bodyClip)">
+    <rect x="18" y="12" width="282" height="146" fill="url(#leather)"/>
+    <rect x="18" y="12" width="282" height="146" fill="url(#leatherGrain)"/>
+    <rect x="18" y="12" width="282" height="146" fill="url(#brushed)"/>
+  </g>
+  <rect x="27" y="21" width="264" height="128" rx="9" fill="none" stroke="#c69a6b" stroke-opacity="0.45" stroke-width="1" stroke-dasharray="3.2 4.2" stroke-linecap="round"/>
+  <rect x="295" y="12" width="10" height="146" fill="url(#steel)"/>
+  <rect x="295" y="12" width="10" height="146" fill="url(#brushed)"/>
+  <rect x="295" y="12" width="1" height="146" fill="#000000" opacity="0.5"/>
+  <rect x="304" y="12" width="1" height="146" fill="#000000" opacity="0.45"/>
+  <circle cx="300" cy="30" r="2.6" fill="url(#rivet)" stroke="#0d0f11" stroke-width="0.8"/>
+  <circle cx="300" cy="54" r="2.6" fill="url(#rivet)" stroke="#0d0f11" stroke-width="0.8"/>
+  <circle cx="300" cy="78" r="2.6" fill="url(#rivet)" stroke="#0d0f11" stroke-width="0.8"/>
+  <circle cx="300" cy="102" r="2.6" fill="url(#rivet)" stroke="#0d0f11" stroke-width="0.8"/>
+  <circle cx="300" cy="126" r="2.6" fill="url(#rivet)" stroke="#0d0f11" stroke-width="0.8"/>
+  <circle cx="300" cy="150" r="2.6" fill="url(#rivet)" stroke="#0d0f11" stroke-width="0.8"/>
+  <text class="emboss" x="42" y="70" fill="#2a1611" opacity="0.85" style="font-size:20px">HZ･ﾃﾞｲｳﾞｨ</text>
+  <text class="emboss" x="42" y="69" style="font-size:20px">HZ･ﾃﾞｲｳﾞｨ</text>
+  <text class="label" x="43" y="86" style="fill:#a9886a;letter-spacing:2.6px;opacity:0.85">TAPE TRANSPORT</text>
+  <text class="brand" x="43" y="128" style="fill:#c9a97f;font-size:11px;letter-spacing:4px;opacity:0.9">TP-01</text>
+  <text class="label" x="43" y="140" style="fill:#8e7157;letter-spacing:1.8px;opacity:0.8">SERIES 1984</text>
+  <rect x="326" y="24" width="320" height="116" rx="10" fill="#0a0807" stroke="#080605" stroke-width="2.5"/>
+  <rect x="329" y="27" width="314" height="110" rx="8" fill="url(#cavity)"/>
+  <g clip-path="url(#winClip)">
+  <path d="M 392 118 L 560 118" stroke="#1b1310" stroke-width="9" stroke-linecap="round"/>
+  <path d="M 392 118 L 560 118" stroke="#3a2a22" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 392 118 L 560 118" stroke="#5c4636" stroke-width="5" stroke-linecap="round" stroke-dasharray="7 6" stroke-opacity="0.55">
+    <animate attributeName="stroke-dashoffset" values="0;-52" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+  <g>
+    <circle cx="392" cy="84" r="40" fill="#241b17" stroke="#100b09" stroke-width="1.5"/>
+    <circle cx="392" cy="84" r="37.5" fill="#3a2c24" opacity="0.85"/>
+    <circle cx="392" cy="84" r="31" fill="#15100e" stroke="#000000" stroke-opacity="0.5"/>
+    <g transform="rotate(0 392 84)">
+      <animateTransform attributeName="transform" type="rotate" values="0 392 84;360 392 84" dur="14s" repeatCount="indefinite"/>
+      <rect x="390.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(0 392 84)"/>
+      <rect x="390.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(60 392 84)"/>
+      <rect x="390.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(120 392 84)"/>
+      <rect x="390.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(180 392 84)"/>
+      <rect x="390.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(240 392 84)"/>
+      <rect x="390.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(300 392 84)"/>
+      <circle cx="392" cy="84" r="12" fill="url(#brass)" stroke="#2a1f14" stroke-width="1"/>
+      <circle cx="392" cy="84" r="5.2" fill="#120d0a"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="560" cy="84" r="40" fill="#241b17" stroke="#100b09" stroke-width="1.5"/>
+    <circle cx="560" cy="84" r="37.5" fill="#3a2c24" opacity="0.85"/>
+    <circle cx="560" cy="84" r="31" fill="#15100e" stroke="#000000" stroke-opacity="0.5"/>
+    <g transform="rotate(0 560 84)">
+      <animateTransform attributeName="transform" type="rotate" values="360 560 84;0 560 84" dur="9s" repeatCount="indefinite"/>
+      <rect x="558.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(0 560 84)"/>
+      <rect x="558.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(60 560 84)"/>
+      <rect x="558.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(120 560 84)"/>
+      <rect x="558.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(180 560 84)"/>
+      <rect x="558.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(240 560 84)"/>
+      <rect x="558.4" y="52" width="3.2" height="28.8" rx="1.6" fill="#6d5a49" opacity="0.9" transform="rotate(300 560 84)"/>
+      <circle cx="560" cy="84" r="12" fill="url(#brass)" stroke="#2a1f14" stroke-width="1"/>
+      <circle cx="560" cy="84" r="5.2" fill="#120d0a"/>
+    </g>
+  </g>
+  <rect x="329" y="27" width="314" height="110" rx="8" fill="url(#glassSheen)"/>
+  </g>
+  <rect x="327" y="25" width="318" height="114" rx="9" fill="none" stroke="#ffffff" stroke-opacity="0.16"/>
+  <g>
+    <g transform="rotate(0 712 78)">
+      <animateTransform attributeName="transform" type="rotate" values="0 712 78;360 712 78" dur="26s" repeatCount="indefinite"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(0 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(25.7 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(51.4 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(77.1 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(102.9 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(128.6 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(154.3 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(180 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(205.7 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(231.4 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(257.1 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(282.9 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(308.6 712 78)"/>
+      <rect x="707.9" y="35" width="8.3" height="6.4" rx="1" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(334.3 712 78)"/>
+      <circle cx="712" cy="78" r="39.4" fill="url(#steelGear)" stroke="#1a1e22" stroke-width="1.2"/>
+      <circle cx="712" cy="78" r="24.8" fill="#3b4148" opacity="0.55"/>
+      <circle cx="712" cy="78" r="12" fill="#21262b" stroke="#0f1215" stroke-width="1.2"/>
+      <circle cx="712" cy="78" r="4.8" fill="#0e1114"/>
+    </g>
+  </g>
+  <g>
+    <g transform="rotate(0 762 122)">
+      <animateTransform attributeName="transform" type="rotate" values="360 762 122;0 762 122" dur="13s" repeatCount="indefinite"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(0 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(36 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(72 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(108 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(144 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(180 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(216 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(252 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(288 762 122)"/>
+      <rect x="758.5" y="95" width="6.9" height="6.4" rx="1" fill="url(#brass)" stroke="#1a1e22" stroke-width="0.9" transform="rotate(324 762 122)"/>
+      <circle cx="762" cy="122" r="23.4" fill="url(#brass)" stroke="#1a1e22" stroke-width="1.2"/>
+      <circle cx="762" cy="122" r="14.9" fill="#3b4148" opacity="0.55"/>
+      <circle cx="762" cy="122" r="7.2" fill="#21262b" stroke="#0f1215" stroke-width="1.2"/>
+      <circle cx="762" cy="122" r="2.9" fill="#0e1114"/>
+    </g>
+  </g>
+  <text class="label" x="662" y="40" style="font-size:6px;letter-spacing:2.4px;fill:#9aa1a8;opacity:0.75">DRIVE</text>
+  <text class="label" x="662" y="132" style="font-size:6px;letter-spacing:2.4px;fill:#9aa1a8;opacity:0.55">REEL 1 / 2</text>
+  <circle cx="838" cy="46" r="3.4" fill="#7a1b16"/>
+  <circle cx="838" cy="46" r="2.6" fill="#ff5d4a" opacity="0.9">
+    <animate attributeName="opacity" values="0.35;1;0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <text class="label" x="838" y="62" text-anchor="middle" style="font-size:5.6px;letter-spacing:1.4px;opacity:0.6">REC</text>
+  <circle cx="33" cy="27" r="4.6" fill="url(#rivet)" stroke="#0b0d0f" stroke-width="1"/>
+  <circle cx="31.9" cy="25.8" r="1.4" fill="#e6ecf2" opacity="0.55"/>
+  <circle cx="867" cy="27" r="4.6" fill="url(#rivet)" stroke="#0b0d0f" stroke-width="1"/>
+  <circle cx="865.9" cy="25.8" r="1.4" fill="#e6ecf2" opacity="0.55"/>
+  <circle cx="33" cy="143" r="4.6" fill="url(#rivet)" stroke="#0b0d0f" stroke-width="1"/>
+  <circle cx="31.9" cy="141.8" r="1.4" fill="#e6ecf2" opacity="0.55"/>
+  <circle cx="867" cy="143" r="4.6" fill="url(#rivet)" stroke="#0b0d0f" stroke-width="1"/>
+  <circle cx="865.9" cy="141.8" r="1.4" fill="#e6ecf2" opacity="0.55"/>
+</svg>

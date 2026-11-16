@@ -1,27 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" role="img" aria-label="Analog dual channel VU meter">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12 6 876 158" role="img" aria-label="Wood cabinet dual analog VU meter">
   <title>VU-1984 · dual analog meter</title>
   <style>
-    .tick { stroke: #3a2f22; }
     .num { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-size: 6.6px; font-weight: 700; fill: #3a2f22; }
     .cap { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-size: 9px; font-weight: 700; fill: #5a4b38; }
-    .label { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-weight: 700; font-size: 6.2px; letter-spacing: 1.8px; fill: #82888f; }
-    .brand { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 4px; fill: #c6cdd5; }
+    .label { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-weight: 700; font-size: 6.2px; letter-spacing: 1.8px; fill: #8d7a5e; }
+    .brand { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 3.4px; fill: #c9d0d7; }
   </style>
   <defs>
     <clipPath id="bodyClip"><rect x="18" y="12" width="864" height="146" rx="20"/></clipPath>
     <clipPath id="glassL"><rect x="48" y="30" width="300" height="104" rx="8"/></clipPath>
     <clipPath id="glassR"><rect x="370" y="30" width="300" height="104" rx="8"/></clipPath>
-    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4a4f57"/><stop offset="0.08" stop-color="#3a3e45"/>
-      <stop offset="0.55" stop-color="#2b2f34"/><stop offset="1" stop-color="#1c1f23"/>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#6e4526"/><stop offset="0.16" stop-color="#7d512d"/>
+      <stop offset="0.34" stop-color="#62391d"/><stop offset="0.52" stop-color="#815633"/>
+      <stop offset="0.7" stop-color="#67401f"/><stop offset="0.86" stop-color="#7a4d29"/>
+      <stop offset="1" stop-color="#5c3619"/>
     </linearGradient>
-    <linearGradient id="topSheen" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    <linearGradient id="woodGloss" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.34" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="0.62" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.22"/>
     </linearGradient>
     <linearGradient id="aluminum" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#9aa1a9"/><stop offset="0.18" stop-color="#5d636b"/>
       <stop offset="0.5" stop-color="#3a3f45"/><stop offset="0.82" stop-color="#5d636b"/>
       <stop offset="1" stop-color="#8d949c"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3c4046"/><stop offset="0.12" stop-color="#2f3338"/>
+      <stop offset="1" stop-color="#1e2125"/>
+    </linearGradient>
+    <linearGradient id="plateLines" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.055"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
     </linearGradient>
     <radialGradient id="cream" cx="0.5" cy="0.42" r="0.72">
       <stop offset="0" stop-color="#fbeccb"/><stop offset="0.55" stop-color="#f0dab0"/>
@@ -59,23 +72,79 @@
       <stop offset="0.4" stop-color="#ff6a5a" stop-opacity="0.18"/>
       <stop offset="1" stop-color="#ff6a5a" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="7"/>
-    </filter>
-    <filter id="needleShadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="1.2" dy="1.6" stdDeviation="0.9" flood-color="#3a2a12" flood-opacity="0.45"/>
-    </filter>
-    <filter id="dropBody" x="-8%" y="-14%" width="116%" height="132%">
-      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.34"/>
-    </filter>
   </defs>
-  <rect x="18" y="12" width="864" height="146" rx="20" fill="url(#bodyGrad)" filter="url(#dropBody)"/>
+  <rect x="20" y="20" width="864" height="146" rx="20" fill="#000000" opacity="0.22"/>
+  <rect x="19" y="16" width="864" height="146" rx="20" fill="#000000" opacity="0.18"/>
+  <rect x="18" y="12" width="864" height="146" rx="20" fill="url(#wood)"/>
   <g clip-path="url(#bodyClip)">
-    <rect x="18" y="12" width="864" height="52" fill="url(#topSheen)"/>
-    <rect x="18" y="12" width="864" height="146" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="2"/>
-    <rect x="21" y="15" width="858" height="140" rx="17" fill="none" stroke="#000000" stroke-opacity="0.35" stroke-width="1.2"/>
+    <g fill="none" stroke-linecap="round">
+      <path d="M18 14 C 198 9 438 19 658 11.0 S 882 16.5 882 14" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 18 C 198 6 438 30 658 10.8 S 882 24.0 882 18" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 22 C 198 12 438 32 658 16.0 S 882 27.0 882 22" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 26 C 198 18 438 34 658 21.2 S 882 30.0 882 26" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 30 C 198 24 438 36 658 26.4 S 882 33.0 882 30" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 34 C 198 21 438 47 658 26.2 S 882 40.5 882 34" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 38 C 198 27 438 49 658 31.4 S 882 43.5 882 38" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 42 C 198 33 438 51 658 36.6 S 882 46.5 882 42" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 46 C 198 39 438 53 658 41.8 S 882 49.5 882 46" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 50 C 198 45 438 55 658 47.0 S 882 52.5 882 50" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 54 C 198 42 438 66 658 46.8 S 882 60.0 882 54" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 58 C 198 48 438 68 658 52.0 S 882 63.0 882 58" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 62 C 198 54 438 70 658 57.2 S 882 66.0 882 62" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 66 C 198 60 438 72 658 62.4 S 882 69.0 882 66" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 70 C 198 57 438 83 658 62.2 S 882 76.5 882 70" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 74 C 198 63 438 85 658 67.4 S 882 79.5 882 74" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 78 C 198 69 438 87 658 72.6 S 882 82.5 882 78" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 82 C 198 75 438 89 658 77.8 S 882 85.5 882 82" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 86 C 198 81 438 91 658 83.0 S 882 88.5 882 86" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 90 C 198 78 438 102 658 82.8 S 882 96.0 882 90" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 94 C 198 84 438 104 658 88.0 S 882 99.0 882 94" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 98 C 198 90 438 106 658 93.2 S 882 102.0 882 98" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 102 C 198 96 438 108 658 98.4 S 882 105.0 882 102" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 106 C 198 93 438 119 658 98.2 S 882 112.5 882 106" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 110 C 198 99 438 121 658 103.4 S 882 115.5 882 110" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 114 C 198 105 438 123 658 108.6 S 882 118.5 882 114" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 118 C 198 111 438 125 658 113.8 S 882 121.5 882 118" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 122 C 198 117 438 127 658 119.0 S 882 124.5 882 122" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 126 C 198 114 438 138 658 118.8 S 882 132.0 882 126" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 130 C 198 120 438 140 658 124.0 S 882 135.0 882 130" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 134 C 198 126 438 142 658 129.2 S 882 138.0 882 134" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 138 C 198 132 438 144 658 134.4 S 882 141.0 882 138" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 142 C 198 129 438 155 658 134.2 S 882 148.5 882 142" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 146 C 198 135 438 157 658 139.4 S 882 151.5 882 146" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="0.8"/>
+      <path d="M18 150 C 198 141 438 159 658 144.6 S 882 154.5 882 150" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.2"/>
+      <path d="M18 154 C 198 147 438 161 658 149.8 S 882 157.5 882 154" stroke="#2a1a0e" stroke-opacity="0.1" stroke-width="1.6"/>
+      <path d="M18 18 C 258 22 538 13 882 20" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 27 C 258 31 538 22 882 29" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 36 C 258 40 538 31 882 38" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 45 C 258 49 538 40 882 47" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 54 C 258 58 538 49 882 56" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 63 C 258 67 538 58 882 65" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 72 C 258 76 538 67 882 74" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 81 C 258 85 538 76 882 83" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 90 C 258 94 538 85 882 92" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 99 C 258 103 538 94 882 101" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 108 C 258 112 538 103 882 110" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 117 C 258 121 538 112 882 119" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 126 C 258 130 538 121 882 128" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 135 C 258 139 538 130 882 137" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 144 C 258 148 538 139 882 146" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M18 153 C 258 157 538 148 882 155" stroke="#b57f4a" stroke-opacity="0.07" stroke-width="1"/>
+    </g>
+    <g fill="none" stroke="#2b1b0f" stroke-opacity="0.22">
+      <ellipse cx="152" cy="128" rx="26" ry="11" stroke-width="1.2"/>
+      <ellipse cx="154" cy="127" rx="16" ry="6.4" stroke-width="1"/>
+      <ellipse cx="155" cy="126.5" rx="7" ry="2.8" stroke-width="0.9"/>
+    </g>
+    <g fill="none" stroke="#2b1b0f" stroke-opacity="0.16">
+      <ellipse cx="700" cy="18" rx="34" ry="9" stroke-width="1.2"/>
+      <ellipse cx="702" cy="17" rx="19" ry="5" stroke-width="1"/>
+    </g>
+    <rect x="18" y="12" width="864" height="146" fill="url(#woodGloss)"/>
+    <rect x="18" y="12" width="864" height="146" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"/>
+    <rect x="21" y="15" width="858" height="140" rx="17" fill="none" stroke="#170d06" stroke-opacity="0.55" stroke-width="1.4"/>
   </g>
-  <rect x="44" y="26" width="308" height="112" rx="10" fill="#0a0b0d" stroke="#050607" stroke-width="2"/>
+  <rect x="44" y="26" width="308" height="112" rx="10" fill="#0a0b0d" stroke="#120a04" stroke-width="2.5"/>
   <rect x="44" y="26" width="308" height="112" rx="12" fill="none" stroke="url(#aluminum)" stroke-width="4.5"/>
   <rect x="48" y="30" width="300" height="104" rx="8" fill="url(#cream)"/>
   <g clip-path="url(#glassL)">
@@ -84,7 +153,7 @@
     </ellipse>
     <path d="M 101 104 A 112 112 0 0 1 295 104" fill="none" stroke="#3a2f22" stroke-width="1.1" opacity="0.85"/>
     <path d="M 277.2 80.8 A 112 112 0 0 1 295 104" fill="none" stroke="#b83a2c" stroke-width="2.4"/>
-    <g class="tick" stroke-linecap="round">
+    <g stroke="#3a2f22" stroke-linecap="round">
       <line x1="110.5" y1="109.5" x2="101" y2="104" stroke-width="1.5" opacity="0.9"/>
       <line x1="110.1" y1="100.7" x2="105.1" y2="97.4" stroke-width="0.9" opacity="0.6"/>
       <line x1="114.5" y1="94.7" x2="109.7" y2="91" stroke-width="0.9" opacity="0.6"/>
@@ -130,19 +199,17 @@
     <text class="num" x="275.9" y="115" text-anchor="middle" transform="rotate(420 275.9 115)">+3</text>
     <text class="cap" x="334" y="122" text-anchor="end" opacity="0.5">VU</text>
     <text class="cap" x="62" y="122" opacity="0.55">L</text>
-    <g filter="url(#needleShadow)">
-      <g transform="rotate(312 198 160)">
-        <animateTransform attributeName="transform" type="rotate" values="312 198 160;390 198 160;330 198 160;408 198 160;318 198 160;382 198 160;346 198 160;416 198 160;312 198 160" keyTimes="0;0.1;0.2;0.4;0.5;0.6;0.8;0.9;1" calcMode="spline" keySplines="0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1" dur="4.6s" repeatCount="indefinite"/>
-        <polygon points="196.3,134 197.3,54 198.7,54 199.7,134" fill="#7d1f16"/>
-        <circle cx="198" cy="160" r="4" fill="#2c2116"/>
-      </g>
+    <g transform="rotate(312 198 160)">
+      <animateTransform attributeName="transform" type="rotate" values="312 198 160;390 198 160;330 198 160;408 198 160;318 198 160;382 198 160;346 198 160;416 198 160;312 198 160" keyTimes="0;0.1;0.2;0.4;0.5;0.6;0.8;0.9;1" calcMode="spline" keySplines="0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1" dur="4.6s" repeatCount="indefinite"/>
+      <polygon points="197.4,134 197.8,54 198.9,54 199.9,134" fill="#7d1f16"/>
+      <circle cx="198" cy="160" r="4" fill="#2c2116"/>
     </g>
     <rect x="48" y="30" width="300" height="104" rx="8" fill="url(#sheen)"/>
     <rect x="48" y="30" width="300" height="104" rx="8" fill="url(#vignette)"/>
   </g>
   <rect x="48" y="30" width="300" height="104" rx="8" fill="none" stroke="#000000" stroke-opacity="0.45" stroke-width="1.6"/>
   <rect x="49" y="31" width="298" height="102" rx="7" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="0.8"/>
-  <rect x="366" y="26" width="308" height="112" rx="10" fill="#0a0b0d" stroke="#050607" stroke-width="2"/>
+  <rect x="366" y="26" width="308" height="112" rx="10" fill="#0a0b0d" stroke="#120a04" stroke-width="2.5"/>
   <rect x="366" y="26" width="308" height="112" rx="12" fill="none" stroke="url(#aluminum)" stroke-width="4.5"/>
   <rect x="370" y="30" width="300" height="104" rx="8" fill="url(#cream)"/>
   <g clip-path="url(#glassR)">
@@ -151,7 +218,7 @@
     </ellipse>
     <path d="M 423 104 A 112 112 0 0 1 617 104" fill="none" stroke="#3a2f22" stroke-width="1.1" opacity="0.85"/>
     <path d="M 599.2 80.8 A 112 112 0 0 1 617 104" fill="none" stroke="#b83a2c" stroke-width="2.4"/>
-    <g class="tick" stroke-linecap="round">
+    <g stroke="#3a2f22" stroke-linecap="round">
       <line x1="432.5" y1="109.5" x2="423" y2="104" stroke-width="1.5" opacity="0.9"/>
       <line x1="432.1" y1="100.7" x2="427.1" y2="97.4" stroke-width="0.9" opacity="0.6"/>
       <line x1="436.5" y1="94.7" x2="431.7" y2="91" stroke-width="0.9" opacity="0.6"/>
@@ -197,44 +264,46 @@
     <text class="num" x="597.9" y="115" text-anchor="middle" transform="rotate(420 597.9 115)">+3</text>
     <text class="cap" x="656" y="122" text-anchor="end" opacity="0.5">VU</text>
     <text class="cap" x="384" y="122" opacity="0.55">R</text>
-    <g filter="url(#needleShadow)">
-      <g transform="rotate(326 520 160)">
-        <animateTransform attributeName="transform" type="rotate" values="326 520 160;304 520 160;390 520 160;352 520 160;410 520 160;332 520 160;394 520 160;322 520 160;326 520 160" keyTimes="0;0.1;0.2;0.4;0.5;0.6;0.8;0.9;1" calcMode="spline" keySplines="0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1" dur="6.1s" repeatCount="indefinite"/>
-        <polygon points="518.3,134 519.3,54 520.7,54 521.7,134" fill="#7d1f16"/>
-        <circle cx="520" cy="160" r="4" fill="#2c2116"/>
-      </g>
+    <g transform="rotate(326 520 160)">
+      <animateTransform attributeName="transform" type="rotate" values="326 520 160;304 520 160;390 520 160;352 520 160;410 520 160;332 520 160;394 520 160;322 520 160;326 520 160" keyTimes="0;0.1;0.2;0.4;0.5;0.6;0.8;0.9;1" calcMode="spline" keySplines="0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1;0.32 0 0.38 1" dur="6.1s" repeatCount="indefinite"/>
+      <polygon points="519.4,134 519.8,54 520.9,54 521.9,134" fill="#7d1f16"/>
+      <circle cx="520" cy="160" r="4" fill="#2c2116"/>
     </g>
     <rect x="370" y="30" width="300" height="104" rx="8" fill="url(#sheen)"/>
     <rect x="370" y="30" width="300" height="104" rx="8" fill="url(#vignette)"/>
   </g>
   <rect x="370" y="30" width="300" height="104" rx="8" fill="none" stroke="#000000" stroke-opacity="0.45" stroke-width="1.6"/>
   <rect x="371" y="31" width="298" height="102" rx="7" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="0.8"/>
-  <text class="brand" x="686" y="66" fill="#0a0b0c" opacity="0.85">VU-1984</text>
-  <text class="brand" x="686" y="65">VU-1984</text>
-  <text class="label" x="686" y="78" opacity="0.75">DUAL ANALOG METER</text>
+  <rect x="684" y="30" width="178" height="110" rx="7" fill="#0a0b0d" stroke="#120a04" stroke-width="2"/>
+  <rect x="687" y="33" width="172" height="104" rx="5" fill="url(#plate)" stroke="#000000" stroke-opacity="0.6"/>
+  <rect x="687" y="33" width="172" height="104" rx="5" fill="url(#plateLines)"/>
+  <rect x="688" y="34" width="170" height="102" rx="4" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text class="brand" x="700" y="62" fill="#0a0b0c" opacity="0.8">VU-1984</text>
+  <text class="brand" x="700" y="61">VU-1984</text>
+  <text class="label" x="700" y="73" opacity="0.6">DUAL METER</text>
   <g>
-    <circle cx="726" cy="114" r="17" fill="#000000" opacity="0.4"/>
-    <circle cx="726" cy="112" r="16" fill="url(#knobRim)" stroke="#0e1012" stroke-width="1.5"/>
-    <circle cx="726" cy="112" r="13.9" fill="url(#knobFace)" stroke="#000000" stroke-opacity="0.5"/>
-    <circle cx="726" cy="112" r="15" fill="none" stroke="#111316" stroke-opacity="0.75" stroke-width="2.2" stroke-dasharray="2 3.1"/>
-    <line x1="726" y1="104" x2="726" y2="96" stroke="#dfeae3" stroke-width="1.9" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="722" cy="104" r="16.5" fill="#000000" opacity="0.45"/>
+    <circle cx="722" cy="102" r="15.5" fill="url(#knobRim)" stroke="#0e1012" stroke-width="1.5"/>
+    <circle cx="722" cy="102" r="13.4" fill="url(#knobFace)" stroke="#000000" stroke-opacity="0.5"/>
+    <circle cx="722" cy="102" r="14.5" fill="none" stroke="#111316" stroke-opacity="0.7" stroke-width="2" stroke-dasharray="1.9 3"/>
+    <line x1="722" y1="94" x2="722" y2="86.5" stroke="#dfeae3" stroke-width="1.9" stroke-linecap="round" opacity="0.85"/>
   </g>
-  <text class="label" x="726" y="146" text-anchor="middle" opacity="0.7">LEVEL</text>
+  <text class="label" x="722" y="132" text-anchor="middle" opacity="0.55">LEVEL</text>
   <g>
-    <circle cx="800" cy="108" r="13" fill="url(#ledGlow)">
+    <circle cx="790" cy="100" r="13" fill="url(#ledGlow)">
       <animate attributeName="opacity" values="0;0.15;0.9;0.2;0;0.7;0.1;0" dur="4.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="800" cy="108" r="4.2" fill="#7a231c"/>
-    <circle cx="800" cy="108" r="3.2" fill="#ff6a5a" opacity="0.85">
+    <circle cx="790" cy="100" r="4.2" fill="#7a231c"/>
+    <circle cx="790" cy="100" r="3.2" fill="#ff6a5a" opacity="0.85">
       <animate attributeName="opacity" values="0.18;0.2;1;0.28;0.18;0.9;0.2;0.18" dur="4.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="799" cy="106.9" r="1.3" fill="#ffe3dd" opacity="0.9">
+    <circle cx="789" cy="98.9" r="1.3" fill="#ffe3dd" opacity="0.9">
       <animate attributeName="opacity" values="0.2;0.25;0.95;0.3;0.2;0.85;0.22;0.2" dur="4.2s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <text class="label" x="800" y="146" text-anchor="middle" opacity="0.6">PEAK</text>
-  <g><circle cx="34" cy="26" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="30.6" y1="24.2" x2="37.4" y2="27.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
-  <g><circle cx="866" cy="26" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="862.6" y1="24.2" x2="869.4" y2="27.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
-  <g><circle cx="34" cy="144" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="30.6" y1="142.2" x2="37.4" y2="145.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
-  <g><circle cx="866" cy="144" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="862.6" y1="142.2" x2="869.4" y2="145.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
+  <text class="label" x="790" y="132" text-anchor="middle" opacity="0.5">PEAK</text>
+  <g><circle cx="33" cy="27" r="5" fill="url(#metal)" stroke="#0d0703" stroke-width="1"/><line x1="29.8" y1="25.3" x2="36.2" y2="28.7" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></g>
+  <g><circle cx="867" cy="27" r="5" fill="url(#metal)" stroke="#0d0703" stroke-width="1"/><line x1="863.8" y1="25.3" x2="870.2" y2="28.7" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></g>
+  <g><circle cx="33" cy="143" r="5" fill="url(#metal)" stroke="#0d0703" stroke-width="1"/><line x1="29.8" y1="141.3" x2="36.2" y2="144.7" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></g>
+  <g><circle cx="867" cy="143" r="5" fill="url(#metal)" stroke="#0d0703" stroke-width="1"/><line x1="863.8" y1="141.3" x2="870.2" y2="144.7" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></g>
 </svg>
