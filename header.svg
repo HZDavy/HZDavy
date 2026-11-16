@@ -166,7 +166,7 @@
   <rect x="49" y="41" width="802" height="158" rx="7" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
   <text x="60" y="247" fill="#0a0b0c" opacity="0.85"><tspan style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:25px;letter-spacing:2.5px;font-weight:400">HZ</tspan><tspan style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,'Noto Sans JP',sans-serif;font-size:23px;letter-spacing:0.5px;font-weight:500">･ﾃﾞｲｳﾞｨ</tspan></text>
   <text x="60" y="246" fill="#c6cdd5"><tspan style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:25px;letter-spacing:2.5px;font-weight:400">HZ</tspan><tspan style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,'Noto Sans JP',sans-serif;font-size:23px;letter-spacing:0.5px;font-weight:500">･ﾃﾞｲｳﾞｨ</tspan></text>
-  <text x="60" y="263" fill="#7d848c" opacity="0.85" style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,Arial,sans-serif;font-size:6.6px;letter-spacing:2.4px;font-weight:400">HZDavy ・ エイチゼット ダヴィ</text>
+  <text x="60" y="263" fill="#7d848c" opacity="0.85" style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,Arial,sans-serif;font-size:6.6px;letter-spacing:2.4px;font-weight:400">HZDavy ・ エイチゼット デイヴィ</text>
   <g>
     <circle cx="840" cy="244" r="14" fill="url(#ledGlow)">
       <animate attributeName="opacity" values="0.55;0.95;0.6;0.9;0.55" dur="4.5s" repeatCount="indefinite"/>
