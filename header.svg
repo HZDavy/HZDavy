@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-label="HZDavy — retro oscilloscope reading Think different in twenty typefaces">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="HZDavy — retro oscilloscope reading Think different in twenty typefaces">
   <title>HZDavy · Think different.</title>
   <style>
     .label { font-family: 'Helvetica Neue', Arial, 'Segoe UI', sans-serif; font-weight: 700; font-size: 7px; letter-spacing: 2.2px; fill: #82888f; }
@@ -7,8 +7,8 @@
     .readout { font-family: Consolas, 'Courier New', monospace; font-size: 9px; letter-spacing: 1.4px; fill: #79dc9b; }
   </style>
   <defs>
-    <clipPath id="bodyClip"><rect x="18" y="14" width="864" height="232" rx="20"/></clipPath>
-    <clipPath id="screenClip"><rect x="48" y="44" width="576" height="172" rx="9"/></clipPath>
+    <clipPath id="bodyClip"><rect x="18" y="14" width="864" height="272" rx="20"/></clipPath>
+    <clipPath id="screenClip"><rect x="48" y="40" width="804" height="160" rx="8"/></clipPath>
     <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#4a4f57"/>
       <stop offset="0.08" stop-color="#3a3e45"/>
@@ -75,28 +75,28 @@
     <pattern id="scanlines" width="4" height="3" patternUnits="userSpaceOnUse">
       <rect width="4" height="1.1" fill="#000000" opacity="0.55"/>
     </pattern>
-    <pattern id="marquee" x="48" y="44" width="6694" height="172" patternUnits="userSpaceOnUse">
+    <pattern id="marquee" x="48" y="40" width="6694" height="160" patternUnits="userSpaceOnUse">
       <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="-6694 0" dur="108s" repeatCount="indefinite"/>
-      <text x="0" y="97" fill="#baffd6" style="font-family:&#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="311" y="97" fill="#baffd6" style="font-family:&#39;Didot&#39;, &#39;Bodoni MT&#39;, &#39;Times New Roman&#39;, serif;font-size:32px;font-style:italic"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="613" y="97" fill="#baffd6" style="font-family:&#39;Futura&#39;, &#39;Century Gothic&#39;, sans-serif;font-size:26px;font-weight:700;letter-spacing:3px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>DIFFERENT.</text>
-      <text x="945" y="97" fill="#baffd6" style="font-family:&#39;Baskerville&#39;, Georgia, serif;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="1263" y="97" fill="#baffd6" style="font-family:&#39;Arial Black&#39;, Impact, sans-serif;font-size:32px;font-weight:700;font-style:italic"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="1611" y="97" fill="#baffd6" style="font-family:&#39;Courier New&#39;, Courier, monospace;font-size:32px;font-weight:700"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="1990" y="97" fill="#baffd6" style="font-family:&#39;Brush Script MT&#39;, &#39;Zapfino&#39;, &#39;Bradley Hand&#39;, cursive;font-size:38px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="2343" y="97" fill="#baffd6" style="font-family:&#39;Palatino Linotype&#39;, &#39;Book Antiqua&#39;, Palatino, serif;font-size:32px;letter-spacing:1px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="2671" y="97" fill="#baffd6" style="font-family:-apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif;font-size:32px;font-weight:700;letter-spacing:-1px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="2989" y="97" fill="#baffd6" style="font-family:&#39;Rockwell&#39;, &#39;Courier New&#39;, serif;font-size:32px;font-weight:700"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="3368" y="97" fill="#baffd6" style="font-family:&#39;Optima&#39;, Candara, sans-serif;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="3680" y="97" fill="#baffd6" style="font-family:&#39;Century Gothic&#39;, &#39;Tw Cen MT&#39;, sans-serif;font-size:32px;letter-spacing:2px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="4026" y="97" fill="#baffd6" style="font-family:&#39;Copperplate&#39;, &#39;Copperplate Gothic Light&#39;, serif;font-size:28px;letter-spacing:1px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>DIFFERENT.</text>
-      <text x="4355" y="97" fill="#baffd6" style="font-family:&#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, sans-serif;font-size:32px;font-weight:700"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="4674" y="97" fill="#baffd6" style="font-family:&#39;American Typewriter&#39;, Courier, serif;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="5053" y="97" fill="#baffd6" style="font-family:Consolas, Monaco, monospace;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="5416" y="97" fill="#baffd6" style="font-family:&#39;Arial Rounded MT Bold&#39;, &#39;Varela Round&#39;, sans-serif;font-size:32px;font-weight:700"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="5740" y="97" fill="#baffd6" style="font-family:&#39;Helvetica Neue&#39;, Helvetica, sans-serif;font-size:32px;letter-spacing:3px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="6081" y="97" fill="#baffd6" style="font-family:Garamond, &#39;Hoefler Text&#39;, serif;font-size:32px;font-weight:700;font-style:italic"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
-      <text x="6368" y="97" fill="#baffd6" style="font-family:&#39;Marker Felt&#39;, &#39;Bradley Hand&#39;, cursive;font-size:34px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="0" y="91" fill="#baffd6" style="font-family:&#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="311" y="91" fill="#baffd6" style="font-family:&#39;Didot&#39;, &#39;Bodoni MT&#39;, &#39;Times New Roman&#39;, serif;font-size:32px;font-style:italic"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="613" y="91" fill="#baffd6" style="font-family:&#39;Futura&#39;, &#39;Century Gothic&#39;, sans-serif;font-size:26px;font-weight:700;letter-spacing:3px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>DIFFERENT.</text>
+      <text x="945" y="91" fill="#baffd6" style="font-family:&#39;Baskerville&#39;, Georgia, serif;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="1263" y="91" fill="#baffd6" style="font-family:&#39;Arial Black&#39;, Impact, sans-serif;font-size:32px;font-weight:700;font-style:italic"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="1611" y="91" fill="#baffd6" style="font-family:&#39;Courier New&#39;, Courier, monospace;font-size:32px;font-weight:700"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="1990" y="91" fill="#baffd6" style="font-family:&#39;Brush Script MT&#39;, &#39;Zapfino&#39;, &#39;Bradley Hand&#39;, cursive;font-size:38px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="2343" y="91" fill="#baffd6" style="font-family:&#39;Palatino Linotype&#39;, &#39;Book Antiqua&#39;, Palatino, serif;font-size:32px;letter-spacing:1px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="2671" y="91" fill="#baffd6" style="font-family:-apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif;font-size:32px;font-weight:700;letter-spacing:-1px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="2989" y="91" fill="#baffd6" style="font-family:&#39;Rockwell&#39;, &#39;Courier New&#39;, serif;font-size:32px;font-weight:700"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="3368" y="91" fill="#baffd6" style="font-family:&#39;Optima&#39;, Candara, sans-serif;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="3680" y="91" fill="#baffd6" style="font-family:&#39;Century Gothic&#39;, &#39;Tw Cen MT&#39;, sans-serif;font-size:32px;letter-spacing:2px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="4026" y="91" fill="#baffd6" style="font-family:&#39;Copperplate&#39;, &#39;Copperplate Gothic Light&#39;, serif;font-size:28px;letter-spacing:1px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>DIFFERENT.</text>
+      <text x="4355" y="91" fill="#baffd6" style="font-family:&#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, sans-serif;font-size:32px;font-weight:700"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="4674" y="91" fill="#baffd6" style="font-family:&#39;American Typewriter&#39;, Courier, serif;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="5053" y="91" fill="#baffd6" style="font-family:Consolas, Monaco, monospace;font-size:32px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="5416" y="91" fill="#baffd6" style="font-family:&#39;Arial Rounded MT Bold&#39;, &#39;Varela Round&#39;, sans-serif;font-size:32px;font-weight:700"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="5740" y="91" fill="#baffd6" style="font-family:&#39;Helvetica Neue&#39;, Helvetica, sans-serif;font-size:32px;letter-spacing:3px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="6081" y="91" fill="#baffd6" style="font-family:Garamond, &#39;Hoefler Text&#39;, serif;font-size:32px;font-weight:700;font-style:italic"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
+      <text x="6368" y="91" fill="#baffd6" style="font-family:&#39;Marker Felt&#39;, &#39;Bradley Hand&#39;, cursive;font-size:34px"><tspan style="font-family:Garamond, &#39;Times New Roman&#39;, serif; font-weight:400">Think </tspan>different.</text>
     </pattern>
     <filter id="glowFar" x="-6%" y="-20%" width="112%" height="140%" color-interpolation-filters="sRGB">
       <feGaussianBlur stdDeviation="9"/>
@@ -111,110 +111,108 @@
       <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000000" flood-opacity="0.38"/>
     </filter>
   </defs>
-  <rect x="18" y="14" width="864" height="232" rx="20" fill="url(#bodyGrad)" filter="url(#dropBody)"/>
+  <rect x="18" y="14" width="864" height="272" rx="20" fill="url(#bodyGrad)" filter="url(#dropBody)"/>
   <g clip-path="url(#bodyClip)">
     <rect x="18" y="14" width="864" height="76" fill="url(#topSheen)"/>
-    <rect x="18" y="14" width="864" height="232" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="2"/>
-    <rect x="21" y="17" width="858" height="226" rx="17" fill="none" stroke="#000000" stroke-opacity="0.35" stroke-width="1.2"/>
-    <rect x="652" y="26" width="2" height="208" fill="#0e1012" opacity="0.6"/>
-    <rect x="654" y="26" width="1" height="208" fill="#ffffff" opacity="0.05"/>
+    <rect x="18" y="14" width="864" height="272" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="2"/>
+    <rect x="21" y="17" width="858" height="266" rx="17" fill="none" stroke="#000000" stroke-opacity="0.35" stroke-width="1.2"/>
   </g>
-  <rect x="40" y="36" width="592" height="188" rx="14" fill="#0a0b0d" stroke="#050607" stroke-width="2"/>
-  <rect x="44" y="40" width="584" height="180" rx="11" fill="none" stroke="url(#aluminum)" stroke-width="5"/>
-  <rect x="48" y="44" width="576" height="172" rx="9" fill="url(#phosphor)"/>
+  <rect x="40" y="32" width="820" height="176" rx="12" fill="#0a0b0d" stroke="#050607" stroke-width="2"/>
+  <rect x="44" y="36" width="812" height="168" rx="10" fill="none" stroke="url(#aluminum)" stroke-width="5"/>
+  <rect x="48" y="40" width="804" height="160" rx="8" fill="url(#phosphor)"/>
   <g clip-path="url(#screenClip)">
     <g stroke="#4bb07c" stroke-opacity="0.20" stroke-width="1">
-      <line x1="105.6" y1="44" x2="105.6" y2="216"/>
-      <line x1="163.2" y1="44" x2="163.2" y2="216"/>
-      <line x1="220.8" y1="44" x2="220.8" y2="216"/>
-      <line x1="278.4" y1="44" x2="278.4" y2="216"/>
-      <line x1="336" y1="44" x2="336" y2="216"/>
-      <line x1="393.6" y1="44" x2="393.6" y2="216"/>
-      <line x1="451.2" y1="44" x2="451.2" y2="216"/>
-      <line x1="508.8" y1="44" x2="508.8" y2="216"/>
-      <line x1="566.4" y1="44" x2="566.4" y2="216"/>
-      <line x1="48" y1="72.7" x2="624" y2="72.7"/>
-      <line x1="48" y1="101.3" x2="624" y2="101.3"/>
-      <line x1="48" y1="158.7" x2="624" y2="158.7"/>
-      <line x1="48" y1="187.3" x2="624" y2="187.3"/>
+      <line x1="128.4" y1="40" x2="128.4" y2="200"/>
+      <line x1="208.8" y1="40" x2="208.8" y2="200"/>
+      <line x1="289.2" y1="40" x2="289.2" y2="200"/>
+      <line x1="369.6" y1="40" x2="369.6" y2="200"/>
+      <line x1="450" y1="40" x2="450" y2="200"/>
+      <line x1="530.4" y1="40" x2="530.4" y2="200"/>
+      <line x1="610.8" y1="40" x2="610.8" y2="200"/>
+      <line x1="691.2" y1="40" x2="691.2" y2="200"/>
+      <line x1="771.6" y1="40" x2="771.6" y2="200"/>
+      <line x1="48" y1="66.7" x2="852" y2="66.7"/>
+      <line x1="48" y1="93.3" x2="852" y2="93.3"/>
+      <line x1="48" y1="146.7" x2="852" y2="146.7"/>
+      <line x1="48" y1="173.3" x2="852" y2="173.3"/>
     </g>
-    <line x1="336" y1="44" x2="336" y2="216" stroke="#63d99b" stroke-opacity="0.26" stroke-width="1"/>
-    <line x1="48" y1="130" x2="624" y2="130" stroke="#63d99b" stroke-opacity="0.26" stroke-width="1"/>
-    <rect x="48" y="44" width="576" height="172" fill="url(#marquee)" filter="url(#glowFar)" opacity="0.32"/>
-    <rect x="48" y="44" width="576" height="172" fill="url(#marquee)" filter="url(#glowNear)" opacity="0.55"/>
-    <rect x="48" y="44" width="576" height="172" fill="url(#marquee)" opacity="0.96"/>
+    <line x1="450" y1="40" x2="450" y2="200" stroke="#63d99b" stroke-opacity="0.26" stroke-width="1"/>
+    <line x1="48" y1="120" x2="852" y2="120" stroke="#63d99b" stroke-opacity="0.26" stroke-width="1"/>
+    <rect x="48" y="40" width="804" height="160" fill="url(#marquee)" filter="url(#glowFar)" opacity="0.32"/>
+    <rect x="48" y="40" width="804" height="160" fill="url(#marquee)" filter="url(#glowNear)" opacity="0.55"/>
+    <rect x="48" y="40" width="804" height="160" fill="url(#marquee)" opacity="0.96"/>
     <g opacity="0">
       <animate attributeName="opacity" values="0;0.55;0.55;0" keyTimes="0;0.08;0.86;1" dur="9s" repeatCount="indefinite"/>
-      <rect x="-12" y="44" width="60" height="172" fill="url(#sweepGrad)" filter="url(#soft)">
-        <animate attributeName="x" values="-12;624" dur="9s" repeatCount="indefinite"/>
+      <rect x="-12" y="40" width="60" height="160" fill="url(#sweepGrad)" filter="url(#soft)">
+        <animate attributeName="x" values="-12;852" dur="9s" repeatCount="indefinite"/>
       </rect>
-      <rect x="48" y="44" width="1.6" height="172" fill="url(#sweepLine)" opacity="0.5">
-        <animate attributeName="x" values="48;624" dur="9s" repeatCount="indefinite"/>
+      <rect x="48" y="40" width="1.6" height="160" fill="url(#sweepLine)" opacity="0.5">
+        <animate attributeName="x" values="48;852" dur="9s" repeatCount="indefinite"/>
       </rect>
     </g>
-    <rect x="48" y="44" width="576" height="172" fill="url(#scanlines)" opacity="0.5"/>
-    <text class="readout" x="62" y="62" opacity="0.42">CH1  500mV/DIV</text>
-    <text class="readout" x="610" y="62" text-anchor="end" opacity="0.42">TRIG AUTO</text>
-    <text class="readout" x="62" y="206" opacity="0.32">DC</text>
-    <text class="readout" x="610" y="206" text-anchor="end" opacity="0.32">20MHz</text>
-    <rect x="48" y="44" width="576" height="172" fill="url(#sheen)"/>
-    <ellipse cx="168" cy="66" rx="190" ry="34" fill="#ffffff" opacity="0.05" filter="url(#soft)"/>
-    <rect x="48" y="44" width="576" height="172" fill="url(#vignette)"/>
-    <rect x="48" y="44" width="576" height="172" fill="#a9ffc6" opacity="0.02">
+    <rect x="48" y="40" width="804" height="160" fill="url(#scanlines)" opacity="0.5"/>
+    <text class="readout" x="62" y="58" opacity="0.42">CH1  500mV/DIV</text>
+    <text class="readout" x="838" y="58" text-anchor="end" opacity="0.42">TRIG AUTO</text>
+    <text class="readout" x="62" y="190" opacity="0.32">DC</text>
+    <text class="readout" x="838" y="190" text-anchor="end" opacity="0.32">20MHz</text>
+    <rect x="48" y="40" width="804" height="160" fill="url(#sheen)"/>
+    <ellipse cx="168" cy="62" rx="190" ry="34" fill="#ffffff" opacity="0.05" filter="url(#soft)"/>
+    <rect x="48" y="40" width="804" height="160" fill="url(#vignette)"/>
+    <rect x="48" y="40" width="804" height="160" fill="#a9ffc6" opacity="0.02">
       <animate attributeName="opacity" values="0.02;0.05;0.015;0.04;0.012;0.03;0.02" dur="6s" repeatCount="indefinite"/>
     </rect>
   </g>
-  <rect x="48" y="44" width="576" height="172" rx="9" fill="none" stroke="#000000" stroke-opacity="0.55" stroke-width="2"/>
-  <rect x="49" y="45" width="574" height="170" rx="8" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
-  <text class="brand engrave" x="666" y="69">HZDavy</text>
-  <text class="brand" x="666" y="68">HZDavy</text>
-  <text class="label" x="666" y="82" opacity="0.75">HD-1984</text>
+  <rect x="48" y="40" width="804" height="160" rx="8" fill="none" stroke="#000000" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="49" y="41" width="802" height="158" rx="7" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+  <text x="60" y="247" fill="#0a0b0c" opacity="0.85"><tspan style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:25px;letter-spacing:2.5px;font-weight:400">HZ</tspan><tspan style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,'Noto Sans JP',sans-serif;font-size:23px;letter-spacing:0.5px;font-weight:500">･ﾃﾞｲｳﾞｨ</tspan></text>
+  <text x="60" y="246" fill="#c6cdd5"><tspan style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:25px;letter-spacing:2.5px;font-weight:400">HZ</tspan><tspan style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,'Noto Sans JP',sans-serif;font-size:23px;letter-spacing:0.5px;font-weight:500">･ﾃﾞｲｳﾞｨ</tspan></text>
+  <text x="60" y="263" fill="#7d848c" opacity="0.85" style="font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,Arial,sans-serif;font-size:6.6px;letter-spacing:2.4px;font-weight:400">HZDavy ・ エイチゼット ダヴィ</text>
   <g>
-    <circle cx="846" cy="62" r="15" fill="url(#ledGlow)">
+    <circle cx="840" cy="244" r="14" fill="url(#ledGlow)">
       <animate attributeName="opacity" values="0.55;0.95;0.6;0.9;0.55" dur="4.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="846" cy="62" r="4.4" fill="#8dffb8"/>
-    <circle cx="846" cy="60.6" r="1.9" fill="#e9fff2" opacity="0.9"/>
+    <circle cx="840" cy="244" r="4.2" fill="#8dffb8"/>
+    <circle cx="840" cy="242.7" r="1.8" fill="#e9fff2" opacity="0.9"/>
   </g>
-  <text class="label" x="846" y="82" text-anchor="middle" opacity="0.6">PWR</text>
+  <text class="label" x="840" y="279" text-anchor="middle" opacity="0.6" style="font-size:6.2px;letter-spacing:1.6px">PWR</text>
   <g>
-    <circle cx="766" cy="126" r="39" fill="#000000" opacity="0.4"/>
-    <circle cx="766" cy="124" r="38" fill="url(#knobRim)" stroke="#0e1012" stroke-width="1.6"/>
-    <circle cx="766" cy="124" r="33.1" fill="url(#knobFace)" stroke="#000000" stroke-opacity="0.5"/>
-    <circle cx="766" cy="124" r="35.7" fill="none" stroke="#111316" stroke-opacity="0.75" stroke-width="5.3" stroke-dasharray="2 3.1"/>
-    <circle cx="766" cy="124" r="28.1" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.6" stroke-dasharray="67.1 176.7" transform="rotate(202 766 124)"/>
-    <line x1="764.4" y1="115" x2="761.6" y2="99.3" stroke="#dfeae3" stroke-width="3.8" stroke-linecap="round" opacity="0.85"/>
-    <line x1="724.6" y1="108.9" x2="718.9" y2="106.8" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
-    <line x1="731" y1="97.2" x2="726.2" y2="93.5" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
-    <line x1="740.7" y1="87.9" x2="737.2" y2="82.9" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
-    <line x1="752.7" y1="82" x2="750.9" y2="76.2" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
-    <line x1="766" y1="79.9" x2="766" y2="73.8" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
-    <line x1="779.3" y1="82" x2="781.1" y2="76.2" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
-    <line x1="791.3" y1="87.9" x2="794.8" y2="82.9" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
-    <line x1="801" y1="97.2" x2="805.8" y2="93.5" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
-    <line x1="807.4" y1="108.9" x2="813.1" y2="106.8" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <circle cx="690" cy="244" r="23" fill="#000000" opacity="0.4"/>
+    <circle cx="690" cy="242" r="22" fill="url(#knobRim)" stroke="#0e1012" stroke-width="1.6"/>
+    <circle cx="690" cy="242" r="19.1" fill="url(#knobFace)" stroke="#000000" stroke-opacity="0.5"/>
+    <circle cx="690" cy="242" r="20.7" fill="none" stroke="#111316" stroke-opacity="0.75" stroke-width="3.1" stroke-dasharray="2 3.1"/>
+    <circle cx="690" cy="242" r="16.3" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.6" stroke-dasharray="38.9 102.3" transform="rotate(202 690 242)"/>
+    <line x1="689.1" y1="236.8" x2="687.5" y2="227.7" stroke="#dfeae3" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+    <line x1="666" y1="233.3" x2="662.7" y2="232.1" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="669.8" y1="226.5" x2="667" y2="224.3" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="675.4" y1="221.1" x2="673.3" y2="218.2" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="682.3" y1="217.7" x2="681.3" y2="214.3" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="690" y1="216.5" x2="690" y2="213" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="697.7" y1="217.7" x2="698.7" y2="214.3" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="704.6" y1="221.1" x2="706.7" y2="218.2" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="710.2" y1="226.5" x2="713" y2="224.3" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="714" y1="233.3" x2="717.3" y2="232.1" stroke="#8b9299" stroke-opacity="0.45" stroke-width="1.2"/>
   </g>
-  <text class="label" x="766" y="184" text-anchor="middle" opacity="0.85">SENSITIVITY</text>
+  <text class="label" x="690" y="279" text-anchor="middle" opacity="0.85" style="font-size:6.8px;letter-spacing:2px">SENSITIVITY</text>
   <g>
-    <circle cx="716" cy="207" r="16" fill="#000000" opacity="0.4"/>
-    <circle cx="716" cy="205" r="15" fill="url(#knobRim)" stroke="#0e1012" stroke-width="1.6"/>
-    <circle cx="716" cy="205" r="13.1" fill="url(#knobFace)" stroke="#000000" stroke-opacity="0.5"/>
-    <circle cx="716" cy="205" r="14.1" fill="none" stroke="#111316" stroke-opacity="0.75" stroke-width="2.1" stroke-dasharray="2 3.1"/>
-    <circle cx="716" cy="205" r="11.1" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.6" stroke-dasharray="26.5 69.7" transform="rotate(202 716 205)"/>
-    <line x1="714.2" y1="201.9" x2="711" y2="196.4" stroke="#dfeae3" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="750" cy="246" r="16" fill="#000000" opacity="0.4"/>
+    <circle cx="750" cy="244" r="15" fill="url(#knobRim)" stroke="#0e1012" stroke-width="1.6"/>
+    <circle cx="750" cy="244" r="13.1" fill="url(#knobFace)" stroke="#000000" stroke-opacity="0.5"/>
+    <circle cx="750" cy="244" r="14.1" fill="none" stroke="#111316" stroke-opacity="0.75" stroke-width="2.1" stroke-dasharray="2 3.1"/>
+    <circle cx="750" cy="244" r="11.1" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.6" stroke-dasharray="26.5 69.7" transform="rotate(202 750 244)"/>
+    <line x1="748.2" y1="240.9" x2="745" y2="235.4" stroke="#dfeae3" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
   </g>
-  <text class="label" x="716" y="228" text-anchor="middle" opacity="0.7" style="font-size:6.4px;letter-spacing:1.6px">FOCUS</text>
+  <text class="label" x="750" y="279" text-anchor="middle" opacity="0.7" style="font-size:6.2px;letter-spacing:1.6px">FOCUS</text>
   <g>
-    <circle cx="816" cy="207" r="16" fill="#000000" opacity="0.4"/>
-    <circle cx="816" cy="205" r="15" fill="url(#knobRim)" stroke="#0e1012" stroke-width="1.6"/>
-    <circle cx="816" cy="205" r="13.1" fill="url(#knobFace)" stroke="#000000" stroke-opacity="0.5"/>
-    <circle cx="816" cy="205" r="14.1" fill="none" stroke="#111316" stroke-opacity="0.75" stroke-width="2.1" stroke-dasharray="2 3.1"/>
-    <circle cx="816" cy="205" r="11.1" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.6" stroke-dasharray="26.5 69.7" transform="rotate(202 816 205)"/>
-    <line x1="817.2" y1="201.6" x2="819.4" y2="195.7" stroke="#dfeae3" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="796" cy="246" r="16" fill="#000000" opacity="0.4"/>
+    <circle cx="796" cy="244" r="15" fill="url(#knobRim)" stroke="#0e1012" stroke-width="1.6"/>
+    <circle cx="796" cy="244" r="13.1" fill="url(#knobFace)" stroke="#000000" stroke-opacity="0.5"/>
+    <circle cx="796" cy="244" r="14.1" fill="none" stroke="#111316" stroke-opacity="0.75" stroke-width="2.1" stroke-dasharray="2 3.1"/>
+    <circle cx="796" cy="244" r="11.1" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.6" stroke-dasharray="26.5 69.7" transform="rotate(202 796 244)"/>
+    <line x1="797.2" y1="240.6" x2="799.4" y2="234.7" stroke="#dfeae3" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
   </g>
-  <text class="label" x="816" y="228" text-anchor="middle" opacity="0.7" style="font-size:6.4px;letter-spacing:1.6px">GAIN</text>
+  <text class="label" x="796" y="279" text-anchor="middle" opacity="0.7" style="font-size:6.2px;letter-spacing:1.6px">GAIN</text>
   <g><circle cx="34" cy="30" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="30.6" y1="28.2" x2="37.4" y2="31.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
   <g><circle cx="866" cy="30" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="862.6" y1="28.2" x2="869.4" y2="31.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
-  <g><circle cx="34" cy="230" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="30.6" y1="228.2" x2="37.4" y2="231.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
-  <g><circle cx="866" cy="230" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="862.6" y1="228.2" x2="869.4" y2="231.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
+  <g><circle cx="34" cy="270" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="30.6" y1="268.2" x2="37.4" y2="271.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
+  <g><circle cx="866" cy="270" r="5.2" fill="url(#metal)" stroke="#0d0f11" stroke-width="1"/><line x1="862.6" y1="268.2" x2="869.4" y2="271.8" stroke="#14171a" stroke-width="1.6" stroke-linecap="round"/></g>
 </svg>
